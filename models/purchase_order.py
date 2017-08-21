@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from openerp.osv import osv, fields
 from openerp.tools.translate import _
-import datetime
+
 
 class purchase_order(osv.Model):
     

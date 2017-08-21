@@ -1,30 +1,36 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#   Copyright (c) 2015- Vizucom Oy (http://www.vizucom.com)
+#    Copyright (c) 2015- Vizucom Oy (http://www.vizucom.com)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
 #    published by the Free Software Foundation, either version 3 of the
 #    License, or (at your option) any later version.
 #
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#    GNU Affero General Public License for more details.
+#
 #    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#    along with this program. If not, see http://www.gnu.org/licenses/agpl.html.
 #
 ##############################################################################
 {
-    'name': 'Purchase order internal notes',
+    'name': 'Purchase Order Internal Notes',
+    'summary': 'Freetext field for writing internal comments.',
+    'version': '7.0.1.0.0',
     'category': 'Purchase',
-    'version': '0.1',
-    'author': 'Vizucom Oy',
     'website': 'http://www.vizucom.com',
-    'depends': ['purchase'],
-    'description': """
-Purchase order internal notes
-=============================   
- * Adds a new "Internal Notes" field to RFQs / Purchase Orders
-    """,
+    'author': 'Vizucom Oy',
+    'license': 'AGPL-3',
+    'application': False,
+    'installable': True,
+    'depends': [
+        'purchase'
+    ],
     'data': [
-        'view/purchase_order.xml',
+        'views/purchase_order.xml',
     ],
 }
