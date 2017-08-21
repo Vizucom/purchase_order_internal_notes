@@ -20,7 +20,7 @@
 {
     'name': 'Purchase Order Internal Notes',
     'summary': 'Freetext field for writing internal comments.',
-    'version': '7.0.1.0.0',
+    'version': '9.0.1.0.0',
     'category': 'Purchase',
     'website': 'http://www.vizucom.com',
     'author': 'Vizucom Oy',
